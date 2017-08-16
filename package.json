@@ -1,0 +1,37 @@
+{
+  "name": "ah-react-native",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^20.0.4",
+    "react-test-renderer": "16.0.0-alpha.12",
+    "standard": "^10.0.3"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android && react-native log-android",
+    "ios": "react-native run-ios && react-native log-ios",
+    "test": "jest",
+    "pretest": "standard"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "native-base": "^2.3.1",
+    "primus": "^7.1.0",
+    "react": "16.0.0-alpha.12",
+    "react-native": "^0.47.0"
+  },
+  "standard": {
+    "ignore": [
+      "lib"
+    ],
+    "globals": [
+      "WebSocket",
+      "it",
+      "expect"
+    ]
+  }
+}
