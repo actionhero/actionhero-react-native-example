@@ -1,5 +1,7 @@
 # ActionHero React Native WebSocket Example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/actionhero/actionhero-react-native.svg)](https://greenkeeper.io/)
+
 This example talks to the server at demo.actionherojs.com
 
 ![screenshot](https://raw.githubusercontent.com/actionhero/actionhero-react-native/master/screenshot.png)
