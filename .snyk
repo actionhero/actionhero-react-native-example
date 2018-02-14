@@ -1,0 +1,68 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.10.1
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  'npm:debug:20170905':
+    - primus > setheader > debug:
+        reason: None given
+        expires: '2018-03-16T16:51:59.888Z'
+    - primus > access-control > setheader > debug:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+  'npm:fresh:20170908':
+    - react-native > connect > fresh:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+    - react-native > connect > serve-favicon > fresh:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+    - react-native > connect > serve-static > send > fresh:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+  'npm:mime:20170907':
+    - react-native > connect > serve-static > send > mime:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+  'npm:qs:20170213':
+    - react-native > connect > qs:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+    - react-native > connect > body-parser > qs:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+  'npm:ws:20171108':
+    - react-native > react-devtools-core > ws:
+        reason: None given
+        expires: '2018-03-16T16:51:59.889Z'
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:ms:20170412':
+    - react-native > connect > compression > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > connect-timeout > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > express-session > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > finalhandler > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > morgan > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > serve-index > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > body-parser > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > connect-timeout > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > serve-static > send > debug > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > serve-static > send > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > serve-favicon > ms:
+        patched: '2018-02-14T16:51:59.903Z'
+  'npm:negotiator:20160616':
+    - react-native > connect > compression > accepts > negotiator:
+        patched: '2018-02-14T16:51:59.903Z'
+    - react-native > connect > serve-index > accepts > negotiator:
+        patched: '2018-02-14T16:51:59.903Z'
