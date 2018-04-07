@@ -4,7 +4,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/actionhero/actionhero-react-native.git"
+    "url": "git://github.com/actionhero/actionhero-react-native-example.git"
   },
   "scripts": {
     "start": "react-native start",
