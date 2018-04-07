@@ -1,17 +1,15 @@
 {
   "name": "ah-react-native",
   "version": "0.1.0",
-  "private": true,
-  "devDependencies": {
-    "babel-preset-react-native-stage-0": "^1.0.1",
-    "jest": "^22.0.0",
-    "react-test-renderer": "^16.0.0",
-    "standard": "^11.0.0"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/actionhero/actionhero-react-native.git"
   },
   "scripts": {
     "start": "react-native start",
-    "android": "react-native run-android && react-native log-android",
-    "ios": "react-native run-ios && react-native log-ios",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
     "test": "jest",
     "pretest": "standard"
   },
@@ -22,7 +20,13 @@
     "native-base": "^2.3.1",
     "primus": "^7.1.0",
     "react": "^16.0.0",
-    "react-native": "^0.50.4"
+    "react-native": "^0.55.1"
+  },
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^22.0.0",
+    "react-test-renderer": "^16.0.0",
+    "standard": "^11.0.0"
   },
   "standard": {
     "ignore": [

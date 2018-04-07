@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 
+const EventEmitter = require('events')
 const Primus = require('primus')
-const fs = require('fs')
 const path = require('path')
 
-let primus = Primus.createServer(function connection (spark) {}, { port: 8080, transformer: 'websockets' })
-const library = primus.library()
-fs.writeFileSync(path.join(__dirname, '..', 'lib', 'primus.js'), library)
+const primus = new Primus(new EventEmitter(), {
+  transformer: 'websockets',
+  pingInterval: false
+})
 
-process.exit(0)
+primus.save(path.join(__dirname, '..', 'lib', 'primus.js'))

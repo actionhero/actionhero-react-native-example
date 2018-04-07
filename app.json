@@ -1,15 +1,4 @@
 {
-  "expo": {
-    "name": "AH React Native",
-    "slug": "AH React Native",
-    "icon": "./assets/logo.png",
-    "version": "1.0.0",
-    "sdkVersion": "19.0.0",
-    "privacy": "unlisted",
-    "ios": {
-      "bundleIdentifier": "com.delicioushat.ah-react-native"
-    }
-  },
-  "name": "reactnative",
-  "displayName": "AH React Native"
+  "name": "actionheroReactNativeExample",
+  "displayName": "ActionHero React Native Example"
 }
