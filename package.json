@@ -11,7 +11,9 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "test": "jest",
-    "pretest": "standard"
+    "pretest": "standard",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "jest": {
     "preset": "react-native"
@@ -20,7 +22,8 @@
     "native-base": "^2.3.1",
     "primus": "^7.1.0",
     "react": "^16.0.0",
-    "react-native": "^0.56.0"
+    "react-native": "^0.59.0",
+    "snyk": "^1.217.1"
   },
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
@@ -37,5 +40,6 @@
       "it",
       "expect"
     ]
-  }
+  },
+  "snyk": true
 }
