@@ -17,7 +17,7 @@
     "preset": "react-native"
   },
   "dependencies": {
-    "native-base": "^2.3.1",
+    "native-base": "^2.13.6",
     "primus": "^7.1.0",
     "react": "^16.0.0",
     "react-native": "^0.56.0"
