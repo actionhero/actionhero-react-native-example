@@ -20,7 +20,7 @@
     "native-base": "^2.3.1",
     "primus": "^7.1.0",
     "react": "^16.0.0",
-    "react-native": "^0.56.0"
+    "react-native": "^0.61.5"
   },
   "devDependencies": {
     "babel-preset-react-native-stage-0": "^1.0.1",
