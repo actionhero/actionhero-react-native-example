@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "native-base": "^2.3.1",
-    "primus": "^7.1.0",
+    "primus": "^7.3.4",
     "react": "^16.0.0",
     "react-native": "^0.56.0"
   },
